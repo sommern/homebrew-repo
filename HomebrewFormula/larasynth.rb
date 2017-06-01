@@ -1,8 +1,7 @@
 class Larasynth < Formula
   desc "Larasynth can learn to turn the knobs of your synthesizer for you."
   homepage "https://github.com/sommern/larasynth"
-  url "https://github.com/sommern/larasynth/archive/v0.1.1.tar.gz"
-  sha256 "e5073b8ac07e67d2e8484f5d49fbb462750dbad43b50a44b6afc26be628c4d8b"
+  url "https://github.com/sommern/larasynth/releases/download/v0.2.2/larasynth-source-0.2.2.tar.gz"
 
   def install
     system "./configure", "--disable-debug",
